@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags for character encoding and responsive viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Himalayan Sherpa</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section with restaurant name and tagline -->
+    <header>
+        <h1 data-translate data-en="Restaurant Himalayan Sherpa" data-fr="Restaurant Himalayan Sherpa">Restaurant Himalayan Sherpa</h1>
+        <p data-translate data-en="Fine Dining Redefined" data-fr="Cuisine Raffinée Redéfinie">Fine Dining Redefined</p>
+    </header>
+
+    <!-- Navigation bar with mobile-responsive burger menu -->
+    <nav>
+        <!-- Burger menu for mobile view -->
+        <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Navigation links -->
+        <div class="nav-links">
+            <a href="#home" data-translate data-en="Home" data-fr="Accueil">Home</a>
+            <a href="#menu" data-translate data-en="Menu" data-fr="Menu">Menu</a>
+            <a href="#about" data-translate data-en="About Us" data-fr="À Propos">About Us</a>
+            <a href="#reservation" data-translate data-en="Reservation" data-fr="Réservation">Reservation</a>
+            <a href="#contact" data-translate data-en="Contact" data-fr="Contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Language toggle button -->
+    <button id="translate-btn">English</button>
+
+    <!-- Hero section with welcome message -->
+    <section id="home">
+        <div class="hero" data-translate data-en="Welcome to Restaurant Himalayan Sherpa" data-fr="Bienvenue au Restaurant Himalayan Sherpa">
+            Welcome to Restaurant Himalayan Sherpa
+        </div>
+    </section>
+
+    <!-- Reservation section with form -->
+    <section id="reservation">
+        <h2 data-translate data-en="Reservation" data-fr="Réservation">Reservation</h2>
+        <!-- Reservation form with bilingual support -->
+        <form class="reservation-form">
+            <input type="text" name="name" placeholder="Your Name" data-translate data-en="Your Name" data-fr="Votre Nom">
+            <input type="email" name="email" placeholder="Your Email" data-translate data-en="Your Email" data-fr="Votre Email">
+            <input type="date" name="date">
+            <input type="time" name="time">
+            <input type="number" name="people" placeholder="Number of People" data-translate data-en="Number of People" data-fr="Nombre de Personnes">
+            <button type="submit" data-translate data-en="Book Now" data-fr="Réservez Maintenant">Book Now</button>
+        </form>
+    </section>
+    <!-- Add this section before the footer in your HTML -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 data-translate data-en="Contact Us" data-fr="Contactez-nous">Contact Us</h2>
+        
+        <div class="contact-grid">
+            <!-- Restaurant Information -->
+            <div class="contact-info">
+                <div class="info-block">
+                    <h3 data-translate data-en="Location" data-fr="Emplacement">Location</h3>
+                    <p>44 Boulevard Voltaire</p>
+                    <p>75011 Paris, France</p>
+                    <p data-translate data-en="Metro: Voltaire (Line 9)" data-fr="Métro : Voltaire (Ligne 9)">
+                        Metro: Voltaire (Line 9)
+                    </p>
+                </div>
+
+                <div class="info-block">
+                    <h3 data-translate data-en="Opening Hours" data-fr="Heures d'ouverture">Opening Hours</h3>
+                    <ul class="hours-list">
+                        <li>
+                            <span data-translate data-en="Monday - Friday:" data-fr="Lundi - Vendredi:">Monday - Friday:</span>
+                            <span>11:30 - 14:30 | 18:30 - 22:30</span>
+                        </li>
+                        <li>
+                            <span data-translate data-en="Saturday - Sunday:" data-fr="Samedi - Dimanche:">Saturday - Sunday:</span>
+                            <span>12:00 - 15:00 | 18:30 - 23:00</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="info-block">
+                    <h3 data-translate data-en="Contact" data-fr="Contact">Contact</h3>
+                    <p>
+                        <strong data-translate data-en="Phone:" data-fr="Téléphone:">Phone:</strong>
+                        <a href="tel:+33142345678">+33 1 42 34 56 78</a>
+                    </p>
+                    <p>
+                        <strong data-translate data-en="Email:" data-fr="Email:">Email:</strong>
+                        <a href="mailto:contact@himalayansherpa.fr">contact@himalayansherpa.fr</a>
+                    </p>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="X (Twitter)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-container">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d656.1828133666124!2d2.369697569658287!3d48.8633348982083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d001fc2bbb1%3A0x666f3c85f478587a!2sLa%20cuisine%20de%20l%E2%80%99himalaya%20-%20Himalayan%20Kitchen!5e0!3m2!1sen!2sfr!4v1734793619357!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer section -->
+    <footer>
+        <p data-translate data-en="© 2024 Restaurant Himalayan Sherpa. All rights reserved." data-fr="© 2024 Restaurant Himalayan Sherpa. Tous droits réservés.">
+            © 2024 Restaurant Himalayan Sherpa. All rights reserved.
+        </p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
